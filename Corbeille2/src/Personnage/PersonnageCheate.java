@@ -1,6 +1,13 @@
 package Personnage;
 
+/**
+ * 
+ *  <h1> The Class PersonnageCheate </h1>
+ *
+ */
+
 public class PersonnageCheate extends Personnage{
+	
 	
 	public Integer getForce() {
 		return super.getForce() + 18;

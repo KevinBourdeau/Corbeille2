@@ -8,6 +8,21 @@ import TypeEquipement.*;
 import TypeRace.Humain;
 import TypeRace.Race;
 
+/**
+ * 
+ * @author kevinbourdeau
+ * @version 1.0
+ *
+ */
+
+
+
+
+/**
+ * 
+ * <h1> The Class Personnage </h1>
+ *
+ */
 public class Personnage {
 
 		protected String nom;
@@ -20,6 +35,11 @@ public class Personnage {
 		public ArrayList<Equipement> equipements;
 		
 		
+		/**
+		 * Constructor of the Personnage
+		 * 
+		 *
+		 */
 		public Personnage() {
 			this.nom = "Sans Nom";
 			this.force = 10;
@@ -36,8 +56,18 @@ public class Personnage {
 		
 		
 		
-		/*
+		/**
 		 * Polymorphisme par surcharge ( Overloading ) 
+		 * Constructor of the Personnage
+		 * 
+		 * @param nom
+		 * @param force
+		 * @param agilite
+		 * @param endurance
+		 * @param intelligence
+		 * @param sagesse
+		 * @param race
+		 * 
 		 */
 		public Personnage(String nom, Integer force, Integer agilite, Integer endurance, Integer intelligence,
 				Integer sagesse, Race race) {
@@ -53,10 +83,12 @@ public class Personnage {
 
 
 
-
+		
 		public String getNom() {
 			return nom;
 		}
+		
+		
 		public Integer getForce() {
 			return force;
 		}
@@ -73,6 +105,11 @@ public class Personnage {
 			return sagesse;
 		}
 		
+		/**
+		 * 
+		 * @see Personnage#ajouterEquipement(Equipement)
+		 * @param equipements
+		 */
 		public void ajouterEquipement(final Equipement equipements) {
 			this.equipements.add(equipements);
 		}
