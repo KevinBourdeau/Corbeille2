@@ -83,24 +83,56 @@ public class Personnage {
 
 
 
+		/**
+		 * 
+		 * @return nom
+		 */
 		
 		public String getNom() {
 			return nom;
 		}
 		
+		/**
+		 * 
+		 * @return force
+		 */
 		
 		public Integer getForce() {
 			return force;
 		}
+		
+		/**
+		 * 
+		 * @return agilite
+		 */
+		
 		public Integer getAgilite() {
 			return agilite;
 		}
+
+		/**
+		 * 
+		 * @return endurance
+		 */
+		
 		public Integer getEndurance() {
 			return endurance;
 		}
+		
+		/**
+		 * 
+		 * @return intelligence
+		 */
+		
 		public Integer getIntelligence() {
 			return intelligence;
 		}
+		
+		/**
+		 * 
+		 * @return sagesse
+		 */
+		
 		public Integer getSagesse() {
 			return sagesse;
 		}
